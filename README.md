@@ -1,33 +1,47 @@
+# 📦 Git Assignment
 
-# Git Assignment
+🔗 https://github.com/EbnulAhsan/git-assignment.git
 
+---
 
+## 📌 Commands Used
 
-\## Repository
+### 🔹 Branching
+git checkout -b history-demo  
+git checkout main  
+git merge history-demo  
 
-https://github.com/EbnulAhsan/git-assignment.git
+---
 
+### 🔹 Commits
+git add .  
+git commit -m "Add line 1"  
+git commit -m "Add line 2"  
+git commit -m "Add line 3"  
+git commit -m "Add line 4"  
+git commit -m "Add line 5"  
 
+---
 
-\## Features
+### 🔹 Interactive Rebase
+git rebase -i HEAD~5  
 
-\- Git branching
+✔ Squash used (5 → 1 commit)  
+✔ Reword used (commit message changed)
 
-\- Interactive rebase (squash \& reword)
+---
 
-\- Git hooks
+## 🔥 Git Hooks
+✔ Commit message validation implemented
 
-\- CI/CD simulation
+---
 
+## ⚙️ GitHub Actions
+✔ CI pipeline simulated
 
+---
 
-\## Commands Used
-
-git checkout  
-
-git commit  
-
-git rebase -i  
-
-git push --force  "# Advanced Git Assignment"
-
+## 🌿 Branch Naming
+feature/  
+bugfix/  
+hotfix/
